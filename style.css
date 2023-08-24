@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100vh;
+}
+
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+/*.lines{
+    padding-right:35em;
+}*/
+.nav-link{
+  color:blue;  
+}
+
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: purple;
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: 1px solid #efefef;
+}
+a.btn:hover{
+    background: blue;
+    border: none;
+    color: #efefef;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+.info{
+    margin: 30px 0;
+
+}
+.image{
+    margin: 30px 0;
+}
+
+
