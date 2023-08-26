@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;  
+    
+}
+
+.header {
+    height: 15vh;
+}
+
+
+.navbar-style {
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+
+/*.lines{
+    padding-right:35em;
+}*/
+.nav-link {
+    color: blue;
+}
+
+/* ALL TEXT */
+.me {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 10px;
+}
+
+.sm-121{
+   margin: 10px 10px;
+}
+.big-text {
+    font-size: 40px;
+    margin: 10px 10px;
+    color: purple;
+}
+
+
+
+/* text end */
+
+a.btn {
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    border: 1px solid #efefef;
+}
+
+a.btn:hover {
+    background: blue;
+    border: none;
+    color: #efefef;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+
+.info {
+    margin: 30px 0;
+    font-size: 2rem;
+
+}
+
+.image {
+    margin: 30px 0;
+    width: 5em;
+    height: 5vh;
+}
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .header {
+            height: 10vh;
+        }
+    
+        .big-text {
+            font-size: 2rem;
+            margin: 20px 0;
+            color: purple;
+        }
+    
+        .info {
+            margin: 30px 30px;
+            font-size: 2rem;
+        }
+    
+        .image {
+            margin: 30px 30px;
+            max-width: 79%;
+        }
+    
+        .me {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    
+        .navbar-style {
+            box-shadow: 0 5px 10px #efefef;
+            text-transform: uppercase;
+            overflow-x: hidden;
+            margin-right: 2em;
+            font-size: 20px;
+        }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .header {
+            height: 15vh;
+        }
+    
+        .big-text {
+            font-size: 2rem;
+            margin: 20px 0;
+            color: purple;
+        }
+    
+        .info {
+            margin: 30px 30px;
+            font-size: 2rem;
+        }
+    
+        .image {
+            margin: 30px 30px;
+            max-width: 79%;
+        }
+    
+        .me {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    
+        .navbar-style {
+            box-shadow: 0 5px 10px #efefef;
+            text-transform: uppercase;
+            font-size: 20px;
+            overflow-x: hidden;
+            margin-right: 2em;
+        }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header {
+            height: 20vh;
+        }
+    
+        .big-text {
+            font-size: 2rem;
+            margin: 20px 0;
+            color: purple;
+        }
+    
+        .info {
+            margin: 30px 30px;
+            font-size: 2rem;
+        }
+    
+        .image {
+            margin: 30px 30px;
+            max-width: 79%;
+        }
+    
+        .me {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    
+        .navbar-style {
+            box-shadow: 0 5px 10px #efefef;
+            text-transform: uppercase;
+            font-size: 20px;
+            margin-right: 2em;
+            overflow-x: hidden;
+        }
+}
