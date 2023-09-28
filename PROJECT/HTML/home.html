@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/PROJECT/abt.css">
+    
+</head>
+<body>
+  <!---------header tag--------->
+  <header class="header">
+    <!---------nav tag--------->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-style head">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active " href="home.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item ">
+                      <a class="nav-link" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="register.html">Register</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <!--------nav tag end------->
+  </header>
+  <!-----header tag end here-------->
+  <!----responsive design start------>
+  <section id="profile" class="p-5 m-5 bg-body-secondary"> <!--first section tag start-->
+    <div class="container container-fluid" id="landing-pg">
+        <h1 class="text-center p-2">ABOUT ME</h1>
+        <div class="row align-items-center">
+            <div class="image col-md-12">
+                <img src="/PROJECT/profile.jpg" alt="Hikmah" class="img-fluid rounded img">
+            </div>
+                <div class="col-md-12 info">
+                    <h1 class="text-center">HIKMAH HASHIM</h1>
+                    <p class="name"> I'm Hikmah HASHIM from Osun State Nigeria</p>
+                    <p class="job">A Front End Developer | Fashion Designer</p>
+    
+                    
+            </div>
+        </div>
+    </div>
+  </section>
+  <!---first section tag end here-->
+
+
+  <!----another section tag-->
+<section>
+    <div class="media  px-3">
+        <div class="facebook">
+        <a href="http://www.facebook.com" class="link" style="background:#4267b2 ;">
+            <i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+            <div class="twitter">
+        <a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="linkedin">
+        <a href="http://www.linkedIn.com"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="instagram">
+        <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="container m-5 p-5 shadow rounded">
+
+        <div class="row ">
+            <div class="col-md-4 p-3 ">
+                <div class="card border-0 shadow rounded hobbies">
+                    <div class="card-body py-4">
+                        <h4 class="card-title text-center">Hobbies</h4>
+                        <ul> 
+                            <li>Learning new things</li>
+                            <li>Software Development</li>
+                            <li>Reading</li>
+                            <li>Product design</li>
+                            <li>Travelling</li>
+                        </ul>
+                       
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-3 ">
+                <div class="card border-0 shadow rounded hobbies">
+                    <div class="card-body py-4">
+                        <h4 class="card-title text-center">Priorities</h4>
+                        <ol> 
+                            <li>Learning new things</li>
+                            <li>Software Development</li>
+                            <li>Reading</li>
+                            <li>Product design</li>
+                            <li>Travelling</li>
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-3">
+                <div class="card border-0 shadow rounded hobbies">
+                    <div class="card-body py-4">
+                        <h4 class="card-title text-center">Other Skills</h4>
+                        <ol> 
+                            <li>Learning new things</li>
+                            <li>Software Development</li>
+                            <ul>
+                                <li>Front end </li>
+                                <li>Back end </li>
+                            </ul>
+                            <li>Reading</li>
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-center"> Above are my hobbies,priorities and other skills</p>
+
+        
+        
+
+    </div>
+</section>
+<div class="d-grid gap-2 col-3 mx-auto">
+    <button class="btn btn-dark" type="button">Contact me</button>
+    
+  </div>
+  <footer>
+    <p class="text-center">&copy; HASHIM HIKMAH</p>
+  </footer>
+  <!-----scripts bootstrap cdn-------->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
